@@ -2,13 +2,13 @@
 
 Submission by Rony Kordahi.
 
-## Database Setup
+## Setting up the Database
 
-The database was set up in PostgreSQL using the application `pgAdmin 4`. 
+The database, tables and stored SQL function were set up in PostgreSQL using the application `pgAdmin 4`. 
 
 I followed the design provided in `Part 1: Schema Design` of the technical test instructions. A modification was made to the `route` table. An automatically incrementing `id` column was added as type `integer`.
 
-## Database Seeding
+## Seeding the Database
 
 To seed the database, I used chatGPT for quick and concise results. I provided it with the details of the tables from `Part 1: Schema Design` and asked for fake test data matching the provided examples in `Part 2: Seed with Dummy Data`.
 
@@ -57,4 +57,4 @@ Steps to run the server:
 3. Run the tests:
     - `npm test`
     - `yarn test`
-4. Jest will run the tests files in the `./server/tests` folder and will confirm if they are successful or not in the console by confirming the number of tests that have passed or failed.
+4. Jest will run the tests files in the `./server/tests` folder and will confirm if they are successful or not in the console by announcing the number of tests that have passed or failed.
